@@ -1,12 +1,12 @@
 # Your code goes here!
-class Dog 
-  def name=(dogs_name)
-    @current_dogs_name = dogs_name
+class Dog # define class
+  def name=(dogs_name) #pass in argument
+    @current_dogs_name = dogs_name #declare intance variable with @ symbol
   end 
   def name
-    @current_dogs_name
+    @current_dogs_name #call the instance variable 
   end 
-  def bark
-    puts "woof!"
+  def bark #define bark function 
+    puts "woof!" #make the dog talk
   end 
 end 
